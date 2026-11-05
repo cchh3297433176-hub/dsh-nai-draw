@@ -1,0 +1,32 @@
+{
+  "name": "local-nai-draw",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+  },
+  "dshGo": {
+    "v": 1,
+    "title": { "zh": "画图", "en": "Draw" },
+    "icon": "generate-image",
+    "assets": "assets",
+    "wants": ["draft"],
+    "contributes": {
+      "composer.actions": [
+        { "id": "draw", "label": { "zh": "画图", "en": "Draw" }, "icon": "generate-image" }
+      ],
+      "panels": [
+        { "id": "gallery", "title": { "zh": "作品", "en": "Gallery" }, "icon": "image", "placement": ["chat.panel", "features"] },
+        { "id": "artists", "title": { "zh": "预设", "en": "Presets" }, "icon": "palette", "placement": ["features"] },
+        { "id": "settings", "title": { "zh": "生图设置", "en": "Settings" }, "icon": "settings", "placement": ["features"] }
+      ]
+    }
+  }
+}

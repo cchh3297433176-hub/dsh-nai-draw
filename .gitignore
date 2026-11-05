@@ -1,0 +1,5 @@
+node_modules/
+data/settings.json
+assets/gen/*
+!assets/gen/.gitkeep
+*.log

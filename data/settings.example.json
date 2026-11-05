@@ -1,0 +1,10 @@
+{
+  "model": "nai-diffusion-4-5-curated",
+  "size": "832x1216",
+  "steps": 28,
+  "sampler": "k_euler_ancestral",
+  "rating": "off",
+  "autoDraw": false,
+  "activeArtist": "u1",
+  "key": ""
+}

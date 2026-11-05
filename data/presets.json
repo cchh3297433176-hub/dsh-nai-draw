@@ -1,0 +1,44 @@
+[
+  {
+    "id": "u1",
+    "name": "高完成度",
+    "prompt": "2.6::masterpiece, best quality::, absurdres, year 2026, 1.6::artist:nenecrepe::, artist:rrrr_222, 0.8::artist:nokoya::, clean lines, fine delicate linework, cel shading",
+    "quality": "",
+    "negative": ""
+  },
+  {
+    "id": "u2",
+    "name": "简笔画",
+    "prompt": "1.2::artist:airfish_(lefko_d),artist:nyr50ml,candid,artist:colo_(frypan_soul),year 2025,very aesthetic,masterpiece::",
+    "quality": "",
+    "negative": ""
+  },
+  {
+    "id": "u3",
+    "name": "pastel",
+    "prompt": "artist:channel_(caststation), year 2024, pastel color",
+    "quality": "",
+    "negative": ""
+  },
+  {
+    "id": "u4",
+    "name": "benk",
+    "prompt": "artist:benkdjjituibot, year 2025",
+    "quality": "",
+    "negative": ""
+  },
+  {
+    "id": "b1",
+    "name": "柏宝绘默认",
+    "prompt": "0.8::nnmbpx::,0.8::artist:yalmyu::,0.1::smilesmile1312,::,artist:sh_(shinh),0.4::chen bin::,0.4::dayama::,healthyman,bacheally",
+    "quality": "location, masterpiece, no text, -0.8::feet::",
+    "negative": "blurry, lowres, upscaled, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, halftone, multiple views, logo, too many watermarks, negative space, blank page"
+  },
+  {
+    "id": "b2",
+    "name": "wlop",
+    "prompt": "artist:wlop, artist:askzy",
+    "quality": "",
+    "negative": ""
+  }
+]
